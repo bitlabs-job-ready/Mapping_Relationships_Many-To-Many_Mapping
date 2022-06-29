@@ -1,0 +1,16 @@
+implement Many-To-Many Mapping by using Books ,Readers entityes
+-create entity class Books with bellow variable.
+	A.book_id;
+	B.book_name;
+	C.Readrs;
+
+-craete entity class Readers with bellow variable.
+	A.rid;
+	B.rname;
+	C.books;
+	
+
+
+1.insert values into books table
+2.insert values into Readers table
+3.implement Many-To-Many Maping between these two.
